@@ -32,29 +32,30 @@
           <div class="wrapper">
             <div class="input">
               <label for="firstname">First Name:</label><br />
-              <input type="text" name="firstname" id="firstname" />
+              <input type="text" name="firstname" id="firstname" required/>
             </div>
             <div class="input">
               <label for="lastname">Last Name:</label><br />
-              <input type="text" name="lastname" id="lastname" />
+              <input type="text" name="lastname" id="lastname" required/>
             </div>
             <div class="input">
               <label for="email">Email:</label><br />
-              <input type="email" name="email" id="email" />
+              <input type="email" name="email" id="email" required/>
             </div>
             <div class="input">
               <label for="phone">Phone Number:</label><br />
-              <input type="text" name="phone" id="phone" />
+              <input type="text" name="phone" id="phone" required/>
             </div>
             <div class="input">
               <label for="password">Password:</label><br />
-              <input type="password" name="password" id="password" />
+              <input type="password" name="password" id="password" required class="error" minlength="4"/>
             </div>
             <div class="input">
               <label for="password2">Confirm Password:</label><br />
-              <input type="password" name="password2" id="password2" />
+              <input type="password" name="password2" id="password2" required class="error"/>
             </div>
           </div>
+          <div class="explanation">*password did not match</div>
         </div>
 
         <section>

@@ -68,6 +68,21 @@ input {
   border-radius: 5px;
 }
 
+button {
+    padding: 4px;
+    font-size: 1.1rem;
+    text-align: center;
+    width: 10vw;
+}
+
+.error {
+    box-shadow: 0 0 4px red;
+}
+
+.explanation {
+    color: red;
+}
+
 a {
   color: rgba(255, 255, 255, 0.678);
 }
