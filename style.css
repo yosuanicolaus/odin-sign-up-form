@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 3.5fr 10fr;
+}
+
+.sidebar {
+  width: 35vw;
+  background-image: url(./background.jpeg);
+  background-position: top center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.37);
+  color: white;
+  margin-top: 40vh;
+}
+
+main {
+  background-color: rgb(41, 41, 41);
+  color: whitesmoke;
+}
+
+section {
+  width: 75%;
+  margin: 3rem;
+}
+
+.container {
+  background-image: linear-gradient(
+    to right bottom,
+    whitesmoke,
+    rgb(153, 153, 153)
+  );
+  color: black;
+  padding-top: 1rem;
+  padding-bottom: 2.5rem;
+  padding-left: 3rem;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+label {
+  overflow: auto;
+}
+
+input {
+  width: 20vw;
+  border-radius: 5px;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.678);
+}
+a:hover {
+  color: white;
+}
